@@ -14,10 +14,14 @@ public class ejercicio5 extends variables {
 		z = x + y;						//
 		mensaje(); 						//llava a la funcion "mensaje"
 		
+		
+		
 	}
 
 	public static void mensaje() {
 		System.out.println("la suma de la variable x y la variable y es igual a " + z); //esta linea sirve para imprimir por pantalla la frase que estamos viendo
+		
+		System.out.println("Estos son los cambio " + cambio1 + cambio2 + cambio3);
 	}
 
 }
